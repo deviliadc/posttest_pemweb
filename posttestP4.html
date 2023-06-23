@@ -1,0 +1,21 @@
+<html>
+	<head>
+	</head>
+	<body align="center">
+		<h1>Memunculkan Angka Maksimal</h1>
+		<form>
+			<input type="number" id="a">
+			<input type="number" id="b">
+			<input type="number" id="c">
+		</form>
+		<button onclick="d();">Check!</button>
+		<h1 ><div id="nilai"></div></h1>
+	</body>
+	<script>
+		function d(){
+			var maks = Math.max(a.value,b.value,c.value);
+			document.getElementById("nilai").innerHTML = "Nilai Maksimal : "+maks;
+			nilai.style.color="red";
+		}
+	</script>
+</html>
